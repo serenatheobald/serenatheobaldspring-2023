@@ -1,4 +1,4 @@
-JOKE=$(curl https://icanhazdadjoke.com)
+JOKE=$(curl -sS https://icanhazdadjoke.com | tail -n 1)
 
 echo "$JOKE"
 echo
