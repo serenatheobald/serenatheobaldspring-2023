@@ -8,4 +8,3 @@ z=11
 echo x is $x
 echo y is $y
 echo x+y=$z
-
