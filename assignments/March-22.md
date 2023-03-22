@@ -10,7 +10,7 @@ Head to the directory you created under `assignments/[LASTNAME]` and add your Co
 
 Checkout a new branch
 ```
-git checkout [new-branch]
+git checkout -b [new-branch] upstream/main
 ```
 
 Create a Containerfile to package the script you wrote in the February 22nd assignment. Set the CMD of your container image to call your executable file.
