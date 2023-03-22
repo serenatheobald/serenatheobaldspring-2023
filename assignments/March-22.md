@@ -6,6 +6,13 @@ Once podman machine has been started, you can use the GUI or follow the commands
 
 ## Create a Containerfile
 
+Head to the directory you created under `assignments/[LASTNAME]` and add your Containerfile there.
+
+Checkout a new branch
+```
+git checkout [new-branch]
+```
+
 Create a Containerfile to package the script you wrote in the February 22nd assignment. Set the CMD of your container image to call your executable file.
 
 ```
