@@ -56,6 +56,11 @@ $ podman push [image-name] docker.io/[username]/[image-name]
 
 Add a link to your container image to this doc https://docs.google.com/document/d/1fKh-2BkDilRNhH_bgAzQsNx1NF8_1TUJPC5M3EFyg8M/edit?usp=sharing
 
+Make sure to run your container image with podman to ensure it runs successfully!
+```
+podman run [image-name]
+```
+
 ## Run a classmate's container image locally
 
 Look through the doc above and pick a container image that one of your classmate's built. Pull it down and run it locally on your machine.
