@@ -1,0 +1,6 @@
+FROM fedora
+WORKDIR mydir
+ADD tick-tack-toe.sh /mydir
+RUN chmod +x /mydir/tick-tack-toe.sh
+RUN dnf install -y ncurses
+CMD ./tick-tack-toe.sh
